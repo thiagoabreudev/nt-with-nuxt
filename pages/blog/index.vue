@@ -1,7 +1,7 @@
 <template>
   <div>
     <ul>
-      <nuxt-link v-for="post in blogPosts" :to="{ path: `blog/${post.slug}` }" :key="post.slug">{{post.title}}</nuxt-link>
+      <nuxt-link v-for="post in blogPosts" :to="{ path: `/blog/${post.slug}` }" :key="post.slug">{{post.title}}</nuxt-link>
     </ul>
   </div>
 </template>
