@@ -1,7 +1,5 @@
 backend:
-  name: github
-  repo: thiagoabreudev/nt-with-nuxt
-  branch: master
+  name: github-gateway
 
 media_folder: static/img
 public_folder: /img
