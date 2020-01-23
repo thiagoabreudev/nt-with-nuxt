@@ -1,5 +1,6 @@
 backend:
   name: git-gateway
+  identity_url: https://partiudoarsangue.com.br
 
 media_folder: static/img
 public_folder: /img
